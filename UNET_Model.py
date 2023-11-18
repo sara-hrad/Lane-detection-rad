@@ -74,10 +74,6 @@ def test():
     model = UNET(in_channels=1, out_channels=1)
     preds = model(x)
     assert preds.shape == x.shape
-    name = 'sara'
-    if name == 'sara':
-        print('oops')
-    # assert name != 'sara'
 
 
 if __name__ == "__main__":

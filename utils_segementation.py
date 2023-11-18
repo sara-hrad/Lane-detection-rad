@@ -1,7 +1,8 @@
 import torch
 import torchvision
-from dataset import CustomDataset
 from torch.utils.data import DataLoader
+
+from dataset import CustomDataset
 
 
 def get_loaders(

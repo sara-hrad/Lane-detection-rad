@@ -1,8 +1,10 @@
-import torch
 import os
-from tqdm import tqdm
+
+import torch
 import torch.nn as nn
 import torch.optim as optim
+from tqdm import tqdm
+
 from UNET_Model import UNET
 from utils_segementation import (
     get_loaders,
